@@ -1,0 +1,14 @@
+{
+  "data_csv": "data/cleaned_final.csv",
+  "exp": "base",
+  "emb": 256,
+  "hid": 512,
+  "enc_layers": 2,
+  "dec_layers": 4,
+  "dropout": 0.3,
+  "batch": 128,
+  "lr": 0.0005,
+  "epochs": 30,
+  "clip": 1.0,
+  "patience": 7
+}
