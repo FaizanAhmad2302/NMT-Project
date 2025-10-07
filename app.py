@@ -14,7 +14,7 @@ st.title("Urdu → Roman Urdu Translator (NMT)")
 st.caption("Uses your repo's seq2seq (BiLSTM + Luong attention) model & checkpoint.")
 
 # ---- Paths & defaults ----
-ROOT = Path(_file_).resolve().parent  # repo root at runtime
+ROOT = Path(__file__).resolve().parent  # repo root at runtime
 DEFAULT_CKPT = "runs/base/best.pt"
 
 # ---- Sidebar config ----
