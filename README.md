@@ -41,6 +41,7 @@ urdu-roman-nmt/
 ├── make_split_csvs.py      # Data preprocessing script
 ├── urdu_input.txt          # Sample input for testing
 └── requirements.txt        # Python dependencies
+app.py                      #streamlit app
 ```
 
 ## Dataset
